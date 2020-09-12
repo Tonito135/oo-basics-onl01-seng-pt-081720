@@ -1,24 +1,24 @@
 # Make your shoe class here!
 class Shoe
   attr_accessor :author, :page_count, :genre
-  def initialize(title)
-    @title = title
+  def initialize(brand)
+    @brand = brand
   end
   
-  def title
-    @title
+  def brand
+    @brand
   end
   
-  def author=(author)
-    @author = author
+  def size=(size)
+    @size = size
   end
   
-  def author
-    @author
+  def size
+    @size
   end
   
-  def page_count
-    @page_count
+  def material
+    @material
   end 
   
   def genre=(genre)
