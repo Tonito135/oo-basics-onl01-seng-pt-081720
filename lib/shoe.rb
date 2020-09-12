@@ -22,19 +22,19 @@ class Shoe
   end
   
   def material=(material)
-    @material
+    @material = material
   end 
   
   def material
     @material
   end
   
-  def genre=(genre)
-    @genre = genre
+  def condition=(condition)
+    @condition = condition
   end
   
-  def genre
-    @genre
+  def condition
+    @condition
   end
   
   def turn_page
